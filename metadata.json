@@ -1,0 +1,6 @@
+{
+  "name": "LinguaTranslate",
+  "description": "LinguaTranslate is an AI-powered language translator that converts English text into multiple target languages using high-performance machine translation.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "TranslationItem": {
+      "title": "Translation Item",
+      "description": "A single translation request and result record",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The Firebase Auth user ID of the record owner"
+        },
+        "originalText": {
+          "type": "string",
+          "description": "The original source text entered by the user"
+        },
+        "translatedText": {
+          "type": "string",
+          "description": "The resulting translated text"
+        },
+        "fromLang": {
+          "type": "string",
+          "description": "The source language code"
+        },
+        "toLang": {
+          "type": "string",
+          "description": "The destination language code"
+        },
+        "timestamp": {
+          "type": "string",
+          "description": "Formatted timestamp for display"
+        },
+        "createdAt": {
+          "type": "integer",
+          "description": "Unix timestamp in milliseconds for sorting"
+        }
+      },
+      "required": ["userId", "originalText", "translatedText", "fromLang", "toLang", "timestamp", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/translations/{translationId}": {
+      "schema": "TranslationItem",
+      "description": "Stores translation history records for authenticated users"
+    }
+  }
+}
