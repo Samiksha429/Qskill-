@@ -105,7 +105,7 @@ Starts both the Express backend and Vite frontend via hot-reloading `tsx` execut
 ```bash
 npm run dev
 ```
-Open browser tab at [http://localhost:3000](http://localhost:3000) to view app.
+Open browser tab at [https://linguatranslate-1033205795064.asia-southeast1.run.app) to view app.
 
 ### 3. Build & Run Production Bundle
 Compiles Vite assets and bundles Express TS entrypoint into robust, self-contained CommonJS code inside `dist/`:
