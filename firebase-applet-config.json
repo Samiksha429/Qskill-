@@ -1,7 +1,7 @@
 {
   "projectId": "model-circuit-zskkt",
   "appId": "1:1033205795064:web:e698485f532f00d433d30d",
-  "apiKey": "AIzaSyCEOVPSmOlFK5fC-fCAsZ3e-8qTyBvZb7Y",
+  "apiKey": "your own Api key",
   "authDomain": "model-circuit-zskkt.firebaseapp.com",
   "firestoreDatabaseId": "ai-studio-linguatranslate-d831a3cc-f5f7-4576-ad4e-c0599becbee6",
   "storageBucket": "model-circuit-zskkt.firebasestorage.app",
